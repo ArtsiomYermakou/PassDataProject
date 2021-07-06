@@ -13,6 +13,7 @@
 		73DB1BEA2694CC8700A8145B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DB1BE82694CC8700A8145B /* Main.storyboard */; };
 		73DB1BEC2694CC8800A8145B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73DB1BEB2694CC8800A8145B /* Assets.xcassets */; };
 		73DB1BEF2694CC8800A8145B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73DB1BED2694CC8800A8145B /* LaunchScreen.storyboard */; };
+		73DB1BF72694D75800A8145B /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DB1BF62694D75800A8145B /* SecondScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		73DB1BEB2694CC8800A8145B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73DB1BEE2694CC8800A8145B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73DB1BF02694CC8800A8145B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73DB1BF62694D75800A8145B /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		73DB1BE12694CC8700A8145B /* PassDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				73DB1BF62694D75800A8145B /* SecondScreenViewController.swift */,
 				73DB1BE22694CC8700A8145B /* AppDelegate.swift */,
 				73DB1BE42694CC8700A8145B /* SceneDelegate.swift */,
 				73DB1BE62694CC8700A8145B /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DB1BF72694D75800A8145B /* SecondScreenViewController.swift in Sources */,
 				73DB1BE72694CC8700A8145B /* ViewController.swift in Sources */,
 				73DB1BE32694CC8700A8145B /* AppDelegate.swift in Sources */,
 				73DB1BE52694CC8700A8145B /* SceneDelegate.swift in Sources */,
