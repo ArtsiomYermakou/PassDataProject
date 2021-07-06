@@ -23,6 +23,11 @@ class ViewController: UIViewController {
     @IBAction func sendFormAction(_ sender: UIButton) {
     }
     
+    
+    @IBAction func backToMAinScreen(seque: UIStoryboardSegue){
+        
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let dvc = segue.destination as? SecondScreenViewController  else {  return }
         dvc.login = loginTF.text
